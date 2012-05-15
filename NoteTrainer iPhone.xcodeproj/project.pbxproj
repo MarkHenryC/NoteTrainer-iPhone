@@ -13,8 +13,21 @@
 		4D8B25E31542157C0034CDD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D8B25E11542157C0034CDD8 /* InfoPlist.strings */; };
 		4D8B25E51542157C0034CDD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B25E41542157C0034CDD8 /* main.m */; };
 		4D8B25E91542157C0034CDD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B25E81542157C0034CDD8 /* AppDelegate.m */; };
-		4D8B25EC1542157C0034CDD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B25EB1542157C0034CDD8 /* ViewController.m */; };
-		4D8B25EF1542157C0034CDD8 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D8B25ED1542157C0034CDD8 /* ViewController.xib */; };
+		4D8B25FA154216940034CDD8 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8B25F9154216940034CDD8 /* OpenAL.framework */; };
+		4D8B2602154217070034CDD8 /* readnote.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B25FC154217070034CDD8 /* readnote.c */; };
+		4D8B2603154217070034CDD8 /* dywapitchtrack.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B25FE154217070034CDD8 /* dywapitchtrack.c */; };
+		4D8B2604154217070034CDD8 /* notelookup.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B2600154217070034CDD8 /* notelookup.c */; };
+		4D8B260E15427E550034CDD8 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8B260D15427E540034CDD8 /* OpenGLES.framework */; };
+		4D8B261015427E5B0034CDD8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8B260F15427E5B0034CDD8 /* QuartzCore.framework */; };
+		4D8B261C1542868B0034CDD8 /* drawnote_es.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B26141542868B0034CDD8 /* drawnote_es.c */; };
+		4D8B261D1542868B0034CDD8 /* anims.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B26181542868B0034CDD8 /* anims.c */; };
+		4D8B261E1542868B0034CDD8 /* sequences.c in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B261A1542868B0034CDD8 /* sequences.c */; };
+		4D8B2621154287430034CDD8 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D8B2620154287430034CDD8 /* GLKit.framework */; };
+		4D8B2629154294BB0034CDD8 /* NotePlayer_iOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B2627154294BB0034CDD8 /* NotePlayer_iOS.m */; };
+		4D8B263015429AA00034CDD8 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B262E15429AA00034CDD8 /* MyViewController.m */; };
+		4D8B263115429AA00034CDD8 /* MyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D8B262F15429AA00034CDD8 /* MyViewController.xib */; };
+		4D8B26351544E4D90034CDD8 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B26331544E4D80034CDD8 /* MainView.m */; };
+		4D8B26381544EA6E0034CDD8 /* GVDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D8B26371544EA6E0034CDD8 /* GVDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +35,40 @@
 		4D8B25D81542157C0034CDD8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4D8B25DA1542157C0034CDD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4D8B25DC1542157C0034CDD8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4D8B25E01542157C0034CDD8 /* NoteTrainer iPhone-Info.plist */ = {isa = PBXFileReference; path = "NoteTrainer iPhone-Info.plist"; sourceTree = "<group>"; };
+		4D8B25E01542157C0034CDD8 /* NoteTrainer iPhone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NoteTrainer iPhone-Info.plist"; sourceTree = "<group>"; };
 		4D8B25E21542157C0034CDD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4D8B25E41542157C0034CDD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4D8B25E61542157C0034CDD8 /* NoteTrainer iPhone-Prefix.pch */ = {isa = PBXFileReference; path = "NoteTrainer iPhone-Prefix.pch"; sourceTree = "<group>"; };
-		4D8B25E71542157C0034CDD8 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D8B25E61542157C0034CDD8 /* NoteTrainer iPhone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NoteTrainer iPhone-Prefix.pch"; sourceTree = "<group>"; };
+		4D8B25E71542157C0034CDD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4D8B25E81542157C0034CDD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		4D8B25EA1542157C0034CDD8 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
-		4D8B25EB1542157C0034CDD8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4D8B25EE1542157C0034CDD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		4D8B25F9154216940034CDD8 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		4D8B25FC154217070034CDD8 /* readnote.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = readnote.c; path = ../../NoteReaderLib/readnote.c; sourceTree = "<group>"; };
+		4D8B25FD154217070034CDD8 /* dywapitchtrack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = dywapitchtrack.h; path = ../../NoteReaderLib/dywapitchtrack.h; sourceTree = "<group>"; };
+		4D8B25FE154217070034CDD8 /* dywapitchtrack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dywapitchtrack.c; path = ../../NoteReaderLib/dywapitchtrack.c; sourceTree = "<group>"; };
+		4D8B25FF154217070034CDD8 /* readnote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = readnote.h; path = ../../NoteReaderLib/readnote.h; sourceTree = "<group>"; };
+		4D8B2600154217070034CDD8 /* notelookup.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = notelookup.c; path = ../../NoteReaderLib/notelookup.c; sourceTree = "<group>"; };
+		4D8B2601154217070034CDD8 /* notelookup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = notelookup.h; path = ../../NoteReaderLib/notelookup.h; sourceTree = "<group>"; };
+		4D8B260D15427E540034CDD8 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		4D8B260F15427E5B0034CDD8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4D8B26141542868B0034CDD8 /* drawnote_es.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = drawnote_es.c; path = ../../NoteReaderLib/drawnote_es.c; sourceTree = "<group>"; };
+		4D8B26151542868B0034CDD8 /* treble_es1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = treble_es1.h; path = ../../NoteReaderLib/treble_es1.h; sourceTree = "<group>"; };
+		4D8B26161542868B0034CDD8 /* bass_es1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bass_es1.h; path = ../../NoteReaderLib/bass_es1.h; sourceTree = "<group>"; };
+		4D8B26171542868B0034CDD8 /* sharp_es1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sharp_es1.h; path = ../../NoteReaderLib/sharp_es1.h; sourceTree = "<group>"; };
+		4D8B26181542868B0034CDD8 /* anims.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = anims.c; path = ../../NoteReaderLib/anims.c; sourceTree = "<group>"; };
+		4D8B26191542868B0034CDD8 /* anims.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = anims.h; path = ../../NoteReaderLib/anims.h; sourceTree = "<group>"; };
+		4D8B261A1542868B0034CDD8 /* sequences.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sequences.c; path = ../../NoteReaderLib/sequences.c; sourceTree = "<group>"; };
+		4D8B261B1542868B0034CDD8 /* sequences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sequences.h; path = ../../NoteReaderLib/sequences.h; sourceTree = "<group>"; };
+		4D8B261F154286F50034CDD8 /* drawnote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = drawnote.h; path = ../../NoteReaderLib/drawnote.h; sourceTree = "<group>"; };
+		4D8B2620154287430034CDD8 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		4D8B2627154294BB0034CDD8 /* NotePlayer_iOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotePlayer_iOS.m; sourceTree = "<group>"; };
+		4D8B2628154294BB0034CDD8 /* NotePlayer_iOS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotePlayer_iOS.h; sourceTree = "<group>"; };
+		4D8B262D15429A9F0034CDD8 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		4D8B262E15429AA00034CDD8 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		4D8B262F15429AA00034CDD8 /* MyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyViewController.xib; sourceTree = "<group>"; };
+		4D8B26331544E4D80034CDD8 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
+		4D8B26341544E4D80034CDD8 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		4D8B26361544EA580034CDD8 /* GVDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GVDelegate.h; sourceTree = "<group>"; };
+		4D8B26371544EA6E0034CDD8 /* GVDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GVDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +76,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D8B2621154287430034CDD8 /* GLKit.framework in Frameworks */,
+				4D8B261015427E5B0034CDD8 /* QuartzCore.framework in Frameworks */,
+				4D8B260E15427E550034CDD8 /* OpenGLES.framework in Frameworks */,
+				4D8B25FA154216940034CDD8 /* OpenAL.framework in Frameworks */,
 				4D8B25D91542157C0034CDD8 /* UIKit.framework in Frameworks */,
 				4D8B25DB1542157C0034CDD8 /* Foundation.framework in Frameworks */,
 				4D8B25DD1542157C0034CDD8 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +109,10 @@
 		4D8B25D71542157C0034CDD8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D8B2620154287430034CDD8 /* GLKit.framework */,
+				4D8B260F15427E5B0034CDD8 /* QuartzCore.framework */,
+				4D8B260D15427E540034CDD8 /* OpenGLES.framework */,
+				4D8B25F9154216940034CDD8 /* OpenAL.framework */,
 				4D8B25D81542157C0034CDD8 /* UIKit.framework */,
 				4D8B25DA1542157C0034CDD8 /* Foundation.framework */,
 				4D8B25DC1542157C0034CDD8 /* CoreGraphics.framework */,
@@ -77,11 +123,18 @@
 		4D8B25DE1542157C0034CDD8 /* NoteTrainer iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				4D8B26331544E4D80034CDD8 /* MainView.m */,
+				4D8B26341544E4D80034CDD8 /* MainView.h */,
+				4D8B2627154294BB0034CDD8 /* NotePlayer_iOS.m */,
+				4D8B2628154294BB0034CDD8 /* NotePlayer_iOS.h */,
+				4D8B25FB154216D50034CDD8 /* NoteReaderLib */,
 				4D8B25E71542157C0034CDD8 /* AppDelegate.h */,
 				4D8B25E81542157C0034CDD8 /* AppDelegate.m */,
-				4D8B25EA1542157C0034CDD8 /* ViewController.h */,
-				4D8B25EB1542157C0034CDD8 /* ViewController.m */,
-				4D8B25ED1542157C0034CDD8 /* ViewController.xib */,
+				4D8B262D15429A9F0034CDD8 /* MyViewController.h */,
+				4D8B262E15429AA00034CDD8 /* MyViewController.m */,
+				4D8B262F15429AA00034CDD8 /* MyViewController.xib */,
+				4D8B26361544EA580034CDD8 /* GVDelegate.h */,
+				4D8B26371544EA6E0034CDD8 /* GVDelegate.m */,
 				4D8B25DF1542157C0034CDD8 /* Supporting Files */,
 			);
 			path = "NoteTrainer iPhone";
@@ -96,6 +149,28 @@
 				4D8B25E61542157C0034CDD8 /* NoteTrainer iPhone-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D8B25FB154216D50034CDD8 /* NoteReaderLib */ = {
+			isa = PBXGroup;
+			children = (
+				4D8B261F154286F50034CDD8 /* drawnote.h */,
+				4D8B26141542868B0034CDD8 /* drawnote_es.c */,
+				4D8B26151542868B0034CDD8 /* treble_es1.h */,
+				4D8B26161542868B0034CDD8 /* bass_es1.h */,
+				4D8B26171542868B0034CDD8 /* sharp_es1.h */,
+				4D8B26181542868B0034CDD8 /* anims.c */,
+				4D8B26191542868B0034CDD8 /* anims.h */,
+				4D8B261A1542868B0034CDD8 /* sequences.c */,
+				4D8B261B1542868B0034CDD8 /* sequences.h */,
+				4D8B25FC154217070034CDD8 /* readnote.c */,
+				4D8B25FD154217070034CDD8 /* dywapitchtrack.h */,
+				4D8B25FE154217070034CDD8 /* dywapitchtrack.c */,
+				4D8B25FF154217070034CDD8 /* readnote.h */,
+				4D8B2600154217070034CDD8 /* notelookup.c */,
+				4D8B2601154217070034CDD8 /* notelookup.h */,
+			);
+			name = NoteReaderLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D8B25E31542157C0034CDD8 /* InfoPlist.strings in Resources */,
-				4D8B25EF1542157C0034CDD8 /* ViewController.xib in Resources */,
+				4D8B263115429AA00034CDD8 /* MyViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,7 +238,16 @@
 			files = (
 				4D8B25E51542157C0034CDD8 /* main.m in Sources */,
 				4D8B25E91542157C0034CDD8 /* AppDelegate.m in Sources */,
-				4D8B25EC1542157C0034CDD8 /* ViewController.m in Sources */,
+				4D8B2602154217070034CDD8 /* readnote.c in Sources */,
+				4D8B2603154217070034CDD8 /* dywapitchtrack.c in Sources */,
+				4D8B2604154217070034CDD8 /* notelookup.c in Sources */,
+				4D8B261C1542868B0034CDD8 /* drawnote_es.c in Sources */,
+				4D8B261D1542868B0034CDD8 /* anims.c in Sources */,
+				4D8B261E1542868B0034CDD8 /* sequences.c in Sources */,
+				4D8B2629154294BB0034CDD8 /* NotePlayer_iOS.m in Sources */,
+				4D8B263015429AA00034CDD8 /* MyViewController.m in Sources */,
+				4D8B26351544E4D90034CDD8 /* MainView.m in Sources */,
+				4D8B26381544EA6E0034CDD8 /* GVDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,14 +260,6 @@
 				4D8B25E21542157C0034CDD8 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		4D8B25ED1542157C0034CDD8 /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4D8B25EE1542157C0034CDD8 /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
